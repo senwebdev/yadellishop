@@ -15,6 +15,9 @@ Spree.config do |config|
   config.s3_bucket = '<bucket>'
   config.s3_access_key = '<key>'
   config.s3_secret = '<secret>'
+  config.attachment_url = ":s3_eu_url"
+  config.s3_host_alias = "s3-eu-west-1.amazonaws.com"
+
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
