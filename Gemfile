@@ -65,6 +65,4 @@ gem 'spree', '~> 3.6'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 
-gem 'rails_12factor', group: :production
-
 gem "aws-sdk-s3", require: false
